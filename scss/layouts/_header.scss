@@ -1,0 +1,12 @@
+header {
+    padding: 25px 70px;
+    nav {
+        display: flex;
+        justify-content: space-between;
+        ul {
+            display: flex;
+            justify-content: space-between;
+            gap: 30px;
+        }
+    }
+}

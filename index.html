@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./scss/style.css">
     <title>BoxCars</title>
 </head>
@@ -12,14 +14,14 @@
         <nav>
             <ul>
                 <li><a href="#">BOXCARS</a></li>
-                <li><a href="">+75 123 456 789</a></li>
+                <li><a href=""><i class='bx bx-phone'></i> +75 123 456 789</a></li>
             </ul>
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Listings</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Pages</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="#">Listings <i class='bx bxs-down-arrow' ></i></a></li>
+                <li><a href="#">Blog <i class='bx bxs-down-arrow' ></i></a></li>
+                <li><a href="#">Pages <i class='bx bxs-down-arrow' ></i></a></li>
+                <li><a href="#">About </a></li>
                 <li><a href="#">Contact</a></li>
                 <li><a href="#">Sign in</a></li>
             </ul>
@@ -29,5 +31,121 @@
         </nav>
     </header>
     <!-- Header section -->
+
+    <!-- Main section -->
+    <main>
+
+        <!-- Homepage -->
+        <section class="homepage">
+            <div class="homepage-content container">
+                <p class="subtitle">Find cars for sale and for rent near you</p>
+                <h1 class="main-title">Find Your Dream Car</h1>
+                <form class="filter-box" action="">
+                    <select name="cars" id="">
+                        <option value="">Used Cars</option>
+                        <option value="">Car2</option>
+                        <option value="">Car3</option>
+                        <option value="">Car4</option>
+                        <option value="">Car5</option>
+                    </select>
+                    <select name="makes" id="">
+                        <option value="">Any Makes</option>
+                        <option value="">Item2</option>
+                        <option value="">Item3</option>
+                        <option value="">Item4</option>
+                        <option value="">Item5</option>
+                    </select>
+                    <select name="models" id="">
+                        <option value="">Any Models</option>
+                        <option value="">Model2</option>
+                        <option value="">Model3</option>
+                        <option value="">Model4</option>
+                        <option value="">Model5</option>
+                    </select>
+                    <input type="text" placeholder="All Prices">
+                    <button><i class='bx bx-search-alt-2' ></i></button>
+                </form>
+                <div class="home-image-box">
+                    <img src="./assets/images/car1.png" alt="Image">
+                </div>
+            </div>
+        </section>
+        <!-- Homepage -->
+        
+        <!-- Car types section -->
+        <section class="cartypes">
+            <div class="cartypes-content container">
+                <h1 class="main-title">Browse by Type</h1>
+                <div class="cartypes-grid">
+                    <div class="cartypes-item">
+                        <img src="./assets/icons/suv.png" alt="">
+                        <p>Suv</p>
+                    </div>
+                    <div class="cartypes-item">
+                        <img src="./assets/icons/sedan.png" alt="">
+                        <p>Sedan</p>
+                    </div>
+                    <div class="cartypes-item">
+                        <img src="./assets/icons/hatchback.svg" alt="">
+                        <p>Hatchback</p>
+                    </div>
+                    <div class="cartypes-item">
+                        <img src="./assets/icons/coupe.svg" alt="">
+                        <p>Coupe</p>
+                    </div>
+                    <div class="cartypes-item">
+                        <img src="./assets/icons/hybrid.svg" alt="">
+                        <p>Hybrid</p>
+                    </div>
+                    <div class="cartypes-item">
+                        <img src="./assets/icons/convertible.svg" alt="">
+                        <p>Convertible</p>
+                    </div>
+                    <div class="cartypes-item">
+                        <img src="./assets/icons/van.svg" alt="">
+                        <p>Van</p>
+                    </div>
+                    <div class="cartypes-item">
+                        <img src="./assets/icons/truck.svg" alt="">
+                        <p>Truck</p>
+                    </div>
+                    <div class="cartypes-item">
+                        <img src="./assets/icons/Electric.svg" alt="">
+                        <p>Electric</p>
+                    </div>
+                </div>
+                <div class="two-cards">
+                    <div class="card">
+                        <h1 class="main-title">Are You Looking For a Car ?</h1>
+                        <p class="subtitle">We are committed to providing our customers with
+                            exceptional service.</p>
+                        <div class="card-bottom">
+                            <a href="#" class="main-btn">Get Started <i class='bx bx-up-arrow-alt'></i></a>
+                            <img src="./assets/icons/electric-car.png" alt="">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h1 class="main-title">Do You Want to
+                            Sell a Car ?</h1>
+                        <p class="subtitle">We are committed to providing our customers with
+                            exceptional service.</p>
+                        <div class="card-bottom">
+                            <a href="#" class="main-btn">Get Started <i class='bx bx-up-arrow-alt'></i></a>
+                            <img src="./assets/icons/electric-car2.svg.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Car types section -->
+
+    </main>
+    <!-- /Main section -->
+    
+    <!-- Footer section -->
+    <footer>
+
+    </footer>
+    <!-- /Footer section -->
 </body>
 </html>

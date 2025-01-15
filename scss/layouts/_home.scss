@@ -1,0 +1,64 @@
+.homepage {
+    padding-top: 100px;
+    background-color: var(--Home-bg);
+    .homepage-content {
+        .subtitle {
+            text-align: center;
+            padding-top: 20px;
+        }
+        .main-title {
+            text-align: center;
+            padding: 15px 0;
+            font-size: 55px;
+        }
+        .filter-box {
+            background-color: white;
+            font-family: var(--MainTextStyle);
+            border-radius: 30px;
+            width: fit-content;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            padding: 5px;
+            margin-top: 30px;
+            select {
+                width: 10em;
+                padding: .7em;
+                border: none;
+                outline: none;
+                border-radius: 30px;
+                font-family: var(--MainTextStyle);
+            }
+            input {
+                padding: .7em;
+                border: none;
+                outline: none;
+                font-family: var(--MainTextStyle);
+            }
+            button {
+                width: 3em;
+                height: 3em;
+                border: none;
+                outline: none;
+                border-radius: 50%;
+                background-color: #405FF2;
+                color: #fff;
+                font-family: var(--MainTextStyle);
+            }
+        }
+        .home-image-box {
+            max-width: 50em;
+            height: 14em;
+            margin: 60px auto 0 auto;
+            position: relative;
+            overflow: hidden;
+            img {
+                width: 110%;
+                position: absolute;
+                top: 20;
+                left: -2em;
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+.main-btn {
+    padding: .7em;
+    border-radius: 10px;
+    color: #fff;
+    background-color:#000;
+    font-family: var(--MainTextStyle);
+    & > i {
+        rotate: 45deg;
+        font-size: 20px;
+        transform: translateY(20%);
+    }
+}

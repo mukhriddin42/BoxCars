@@ -1,3 +1,11 @@
-.container {
-    background-color: red;
-}
+@import './base/base';
+@import './components/typography';
+@import './components/buttons';
+
+
+// Layouts scss
+@import './layouts/header';
+@import './layouts/home';
+@import './layouts/cartypes';
+@import './layouts/whyChooseUs';
+@import './layouts/footer';
